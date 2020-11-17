@@ -3,41 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>The South Face | E-Commerce Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <img src="img/logo.png" width="125px" alt="" />
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="img/logo.png" width="125px" alt="" />
+          </div>
+
+          <!-- Navbar -->
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img src="img/cart.png" width="30px" height="30px" alt="">
         </div>
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Account</a></li>
-          </ul>
-        </nav>
+
+        <!-- Showcase -->
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Inspiring Explorers.<br />
+              Driving Expeditions.
+            </h1>
+            <p>
+              We were born to explore. <br> To be curious, to overcome challenges, to
+              seek higher peaks and push limits. Adventure is everywhere!
+            </p>
+            <a href="" class="btn">Shop Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="img/image1.png" alt="" />
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-2">
-          <h1>
-            Inspiring Explorers.<br />
-            Driving Expeditions.
-            
-          </h1>
-          <p>
-            We were born to explore. To be curious, to overcome challenges, to
-            seek higher peaks<br>and push limits. Adventure is everywhere!
-          </p>
+    </div>
+
+    <!-- Featured Products  -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-3.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-2.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="col-2">
-            <img src="img/image1.jpg" alt="">
-        </div>
-      </div>
     </div>
   </body>
 </html>
