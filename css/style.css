@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #DB1F22;
+    --third-color: #2D628A;
+    --fourth-color: #062A4D;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,11 +38,11 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: var(--primary-color);
 }
 
 p {
-    color: #000000;
+    color: var(--primary-color);
 }
 
 .container {
@@ -52,6 +59,7 @@ p {
     justify-content: space-around;
 }
 
+/* Showcase */
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
@@ -90,6 +98,7 @@ p {
     margin-top: 40px;
 }
 
+/* Featured */
 .categories {
     margin: 40px 0;
 }
@@ -109,4 +118,55 @@ p {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+/* Featured Products */
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 40px;
+    position: relative;
+    line-height: 60px;
+    color: var(--primary-color);
+}
+
+.title::after {
+    content: '';
+    background: var(--third-color);
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: var(--fourth-color);
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.rating .fas, .far {
+    color: var(--third-color)
 }
