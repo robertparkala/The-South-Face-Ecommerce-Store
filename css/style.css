@@ -170,3 +170,58 @@ h4 {
 .rating .fas, .far {
     color: var(--third-color)
 }
+
+/* New Arrival */
+.arrival {
+    background: radial-gradient(#fff,#2D628A);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .new-arrival {
+    padding: 5px;
+}
+
+small {
+    color: var(--primary-color);
+}
+
+/* Testimonials */
+.testimonial {
+    padding-top: 50px;
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(143, 140, 140, 0.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.testimonial .col-3 img {
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.fas.fa-quote-left {
+    font-size: 25px;
+    color: var(--third-color);
+}
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: var(--primary-color);
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 16px;
+} 
