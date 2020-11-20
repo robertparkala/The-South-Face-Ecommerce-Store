@@ -225,3 +225,22 @@ small {
     color: var(--primary-color);
     font-size: 16px;
 } 
+
+/* Brands */
+.brands {
+    margin: 50px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0);
+}
