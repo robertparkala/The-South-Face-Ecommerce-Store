@@ -315,6 +315,21 @@ ul {
     display: none;
 }
 
+/* All Products */
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid var(--fourth-color);
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
 /* Media Queries Nav Menu */
 @media only screen and  (max-width: 800px){
     nav ul {
