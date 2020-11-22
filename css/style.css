@@ -318,7 +318,7 @@ ul {
 /* All Products */
 .row-2 {
     justify-content: space-between;
-    margin: 100px auto 50px;
+    margin: 80px auto 50px;
 }
 
 select {
@@ -328,6 +328,26 @@ select {
 
 select:focus {
     outline: none;
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid var(--fourth-color);
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: var(--third-color);
+    color: #fff;
 }
 
 /* Media Queries Nav Menu */
