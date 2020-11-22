@@ -308,3 +308,59 @@ ul {
 .copyright {
     text-align: center;
 }
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* Media Queries Nav Menu */
+@media only screen and  (max-width: 800px){
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: var(--primary-color);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* Media Queries Mobile */
+@media only screen and  (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+
+    .col-2 h1 {
+        margin: 0px auto 25px;
+    }
+    
+
+    .col-2 img {
+        max-width: 470px;
+        padding: 50px 0;
+    }
+}
