@@ -360,7 +360,9 @@ ul {
     
 
     .col-2 img {
-        max-width: 470px;
+        position: relative;
+        right: 20px;
+        max-width: 400px;
         padding: 50px 0;
     }
 }
