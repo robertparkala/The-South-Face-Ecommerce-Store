@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - The South Face</title>
+    <script
+      src="https://kit.fontawesome.com/a0c4f66859.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" width="125px" alt="" />
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="img/cart.png" width="30px" height="30px" alt="" />
+        <img
+          src="img/menu.png"
+          class="menu-icon"
+          alt=""
+          onclick="menuDropDown()"
+        />
+      </div>
+    </div>
+
+    <!-- Cart -->
+    <div class="small-container">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>Product Name</td>
+                <td><input type="number" value="1"></td>
+                <td>$140</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download The South Face App</h3>
+            <p>Download our App for both Android and iOS mobile phone</p>
+            <div class="app-logo">
+              <img src="img/play-store.png" alt="" />
+              <img src="img/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="img/logo.png" width="125px" alt="" />
+            <p>
+              The South Face® provides the best gear and inspires a global
+              movement of exploration.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Help</h3>
+            <ul>
+              <li>Questions?</li>
+              <li>Sizing Charts</li>
+              <li>Return Policy</li>
+              <li>Warranty</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow The South Face</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright&copy; 2020 - The South Face</p>
+      </div>
+    </div>
+
+    <!-- JS for Navbar Menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menuDropDown() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
