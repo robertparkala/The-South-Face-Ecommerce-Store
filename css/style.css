@@ -411,7 +411,42 @@ input:focus {
 }
 
 /* Cart */
+.cart-details {
+    margin: 80px auto;
+}
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: var(--third-color);
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: var(--third-color);
+    font-size: 12px;
+}
 
 /* Media Queries Nav Menu */
 @media only screen and  (max-width: 800px){
