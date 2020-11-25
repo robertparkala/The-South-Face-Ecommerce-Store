@@ -448,8 +448,34 @@ td a {
     font-size: 12px;
 }
 
+td img {
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid var(--third-color);
+    width: 100%;
+    max-width: 440px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
 /* Media Queries Nav Menu */
 @media only screen and  (max-width: 800px){
+    nav {
+        z-index: 1;
+    }
     nav ul {
         position: absolute;
         top: 70px;
