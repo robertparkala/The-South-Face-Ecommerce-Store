@@ -286,6 +286,11 @@ p {
     text-align: center;
 }
 
+.footer-col-4 a {
+    display: block;
+    color: #555;
+}
+
 ul {
     list-style-type: none;
 }
@@ -478,7 +483,7 @@ th:last-child {
 }
 
 .form-container {
-    background: #fff;
+    background: var(--fourth-color);
     width: 300px;
     height: 400px;
     position: relative;
@@ -486,12 +491,14 @@ th:last-child {
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .form-container span {
     font-weight: bold;
     padding: 0 10px;
-    color: var(--primary-color);
+    color: #fff;
     cursor: pointer;
     width: 100px;
     display: inline-block;
@@ -506,6 +513,7 @@ th:last-child {
     padding: 0 20px;
     position: absolute;
     top: 130px;
+    transition: transform 1s;
 }
 
 form input {
@@ -546,8 +554,8 @@ form a {
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
+    transition: transform 1s;
 }
-
 
 
 /* Media Queries Nav Menu */
