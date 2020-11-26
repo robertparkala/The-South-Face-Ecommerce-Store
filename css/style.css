@@ -516,6 +516,40 @@ form input {
     border: 1px solid var(--third-color);
 }
 
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus {
+    outline: none;
+} 
+
+#LoginForm {
+    left: -300px;
+}
+
+#RegistrationForm {
+    left: 0;
+}
+
+form a {
+    font-size: 12px;
+}
+
+#Indicator {
+    width: 100px;
+    border: none;
+    background: var(--third-color);
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+}
+
+
+
 /* Media Queries Nav Menu */
 @media only screen and  (max-width: 800px){
     nav {
