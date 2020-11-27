@@ -800,6 +800,14 @@ input[type="submit"]:hover {
     display: none;
   }
 
+  .about-title {
+      font-size: 45px;
+  }
+
+  .about-showcase p {
+      font-size: 20px;
+  }
+
   .contact-info {
     text-align: center;
     grid-template-columns: 1fr;
